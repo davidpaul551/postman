@@ -1,0 +1,53 @@
+{
+	"id": "0dd5d7f7-2158-41d5-8358-fd461b3e16a2",
+	"name": "Authorization",
+	"timestamp": "2024-11-14T04:44:34.523Z",
+	"collection_id": "38587197-90e8d2d0-89e3-432a-862e-64ea94bc392a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-14T04:44:33.794Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "52c678cd-c38e-4835-b68c-219192e1d69f",
+			"name": "GET_Authorization",
+			"url": "https://postman-echo.com/basic-auth",
+			"time": 262,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				262
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 262,
+	"collection": {
+		"requests": [
+			{
+				"id": "52c678cd-c38e-4835-b68c-219192e1d69f",
+				"method": "GET"
+			}
+		]
+	}
+}
