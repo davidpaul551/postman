@@ -1,0 +1,65 @@
+{
+	"id": "21532774-4635-4200-8845-7b911ec6310b",
+	"name": "LabBook",
+	"timestamp": "2024-11-14T02:06:15.251Z",
+	"collection_id": "38587197-1b470748-2db6-4095-bf5d-3b26d18570df",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-14T02:06:14.612Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6d6fdc2b-dd73-46e5-ab6f-fba2f3b2997f",
+			"name": "LabBook_3_Single_user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Logging the Status code ": true,
+				"Checking the Response Time": true,
+				"Checking the length :": true
+			},
+			"testPassFailCounts": {
+				"Logging the Status code ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checking the Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checking the length :": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Logging the Status code ": true,
+					"Checking the Response Time": true,
+					"Checking the length :": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 144,
+	"collection": {
+		"requests": [
+			{
+				"id": "6d6fdc2b-dd73-46e5-ab6f-fba2f3b2997f",
+				"method": "GET"
+			}
+		]
+	}
+}

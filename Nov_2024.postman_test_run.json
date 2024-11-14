@@ -1,0 +1,350 @@
+{
+	"id": "0a8ba801-f6a6-4f0c-b417-6902e95794bf",
+	"name": "Nov_2024",
+	"timestamp": "2024-11-14T02:05:24.441Z",
+	"collection_id": "38587197-47235f68-a41c-4ecc-98ef-d6dcc0ae731a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 13,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-14T02:05:19.609Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d9201339-13f5-462b-9d6e-40efe6287539",
+			"name": "GET_all_products",
+			"url": "https://fakestoreapi.com/products",
+			"time": 602,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Price Validation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Price Validation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				602
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Price Validation": true
+				}
+			]
+		},
+		{
+			"id": "c9e04f2f-c06a-4302-a3df-a19319eae1c8",
+			"name": "GET_single_product",
+			"url": "https://fakestoreapi.com/products/1",
+			"time": 369,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check price value": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check price value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				369
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check price value": true
+				}
+			]
+		},
+		{
+			"id": "b0bc46db-2492-4967-854f-ae8b223b19b6",
+			"name": "GET_limit_results",
+			"url": "https://fakestoreapi.com/products?limit=5",
+			"time": 345,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				345
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "813e417c-554b-42b8-93ab-7239f8844cb6",
+			"name": "GET_sort_results",
+			"url": "https://fakestoreapi.com/products?sort=desc",
+			"time": 329,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				329
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "df731c9f-4871-4541-a14f-4133b8d04288",
+			"name": "GET_all_categories",
+			"url": "https://fakestoreapi.com/products/categories",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				245
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9d836fa4-38e3-4f67-ada9-80b945ab7bd7",
+			"name": "GET_prod_specific_category",
+			"url": "https://fakestoreapi.com/products/category/jewelery",
+			"time": 427,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				427
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dd61ec05-81bb-4aed-ab07-2f30b8379ffa",
+			"name": "POST_new_product",
+			"url": "https://fakestoreapi.com/products",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ac276f6c-d47c-4e72-a3ac-bef5cb2ebeee",
+			"name": "PUT_update_product",
+			"url": "https://fakestoreapi.com/products/7",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				304
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3ef53220-831f-405d-9451-252300b36ed3",
+			"name": "PATCH_update_product",
+			"url": "https://fakestoreapi.com/products/7",
+			"time": 359,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				359
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3629166a-843f-47b0-97ec-ce42d332b813",
+			"name": "DELETE_product",
+			"url": "https://fakestoreapi.com/products/6",
+			"time": 339,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				339
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3610,
+	"collection": {
+		"requests": [
+			{
+				"id": "d9201339-13f5-462b-9d6e-40efe6287539",
+				"method": "GET"
+			},
+			{
+				"id": "c9e04f2f-c06a-4302-a3df-a19319eae1c8",
+				"method": "GET"
+			},
+			{
+				"id": "b0bc46db-2492-4967-854f-ae8b223b19b6",
+				"method": "GET"
+			},
+			{
+				"id": "813e417c-554b-42b8-93ab-7239f8844cb6",
+				"method": "GET"
+			},
+			{
+				"id": "df731c9f-4871-4541-a14f-4133b8d04288",
+				"method": "GET"
+			},
+			{
+				"id": "9d836fa4-38e3-4f67-ada9-80b945ab7bd7",
+				"method": "GET"
+			},
+			{
+				"id": "dd61ec05-81bb-4aed-ab07-2f30b8379ffa",
+				"method": "POST"
+			},
+			{
+				"id": "ac276f6c-d47c-4e72-a3ac-bef5cb2ebeee",
+				"method": "PUT"
+			},
+			{
+				"id": "3ef53220-831f-405d-9451-252300b36ed3",
+				"method": "PATCH"
+			},
+			{
+				"id": "3629166a-843f-47b0-97ec-ce42d332b813",
+				"method": "DELETE"
+			}
+		]
+	}
+}
